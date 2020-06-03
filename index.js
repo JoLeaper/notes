@@ -1,4 +1,4 @@
-const { Note } = require('./lib/Notes');
+const Note = require('./lib/Notes');
 const { Input } = require('./lib/Input');
 
 const action = new Input(process.argv);
